@@ -37,17 +37,7 @@ function showDisplayButton() {
         message.textContent = "Player 1 Turn"
     }
     
-    
-    if (player1Score >= 20) {
-        message.textContent = "Player 1 has won! 🥳"
-        showDisplayButton()
-    } else if (player2Score >= 20) {
-        message.textContent = "Player 2 has won! 🎉"
-        showDisplayButton()
-    }
-    
-    player1Turn = !player1Turn
-})
+    })
  
 // 1. Hook a click event listener up with the Reset Button
 // 2. Create a reset() function that resets the game
