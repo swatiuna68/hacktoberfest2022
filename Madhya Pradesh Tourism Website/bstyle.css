@@ -18,12 +18,7 @@ body {
     margin-left: 1%;
   }
   
-  label {
-    display: block;
-    font-family: 'Nanum Gothic';
-    padding-bottom: 10px;
-    font-size: 1.25em;
-  }
+ 
   
   input, select, textarea {
     border-radius: 2px;
